@@ -1,0 +1,476 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.icon {
+  margin-left: 30px;
+}
+
+#section-a {
+  position: relative;
+}
+.text {
+  padding: 3rem;
+}
+.text h1 {
+  font-weight: 600;
+  font-size: 3.75rem;
+  color: #343434;
+}
+.text p {
+  font-size: 1.2rem;
+  letter-spacing: 0.02em;
+  color: #343434;
+}
+.input {
+  width: 29.75rem;
+  height: 44px;
+  background: #e8e8e8;
+  border: none;
+  border-radius: 30px;
+}
+.button {
+  margin-left: -163px;
+  background: #ff244f;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 2px 10px rgba(255, 36, 79, 0.5);
+  border-radius: 30px;
+  width: 158px;
+  height: 44px;
+}
+.car {
+  width: 45%;
+}
+
+@media screen and (max-width: 768px) {
+  .text h1 {
+    font-size: 2rem;
+  }
+  .cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .button {
+    margin: 10px auto;
+    width: 10--rem;
+  }
+  .input {
+    width: 20rem;
+  }
+  .car {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

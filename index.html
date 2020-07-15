@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header class="d-flex align-items-center justify-content-between py-3 px-5">
+        <div>
+            <img src="assets/logo.png" alt="Logo">
+        </div>
+        <div class="social-icons">
+            <img src="assets/facebook.png" alt="" class="icon">
+            <img src="assets/twitter.png" alt="" class="icon">
+            <img src="assets/linkedin.png" alt="" class="icon">
+        </div>
+    </header>
+
+
+    <div class="d-md-flex align-items-center justify-content-center container-fluid mx-auto" id="section-a">
+        <div class="text container ">
+            <h1>Have you been delayed because of your Car Issues?</h1>
+            <p>With Cartify, you can easily Scan your Car for Defects and Strength anywhere you are without having to go to the Mechanic Shop for diagnosis</p>
+            <div class = "pt-4">
+                <h5>Subscribe and get notified when we launch</h5>
+                <form action="email.php" method="POST" class = "cta">
+                    <input type="text" name="email" id="email-input" placeholder="Email address.." class = "px-4 input">
+                    <button type="submit" name = "submit" class = " button">Notify me!</button>
+                </form>
+            </div>
+        </div>
+        <img src="assets/car.png" alt="" class="car ">
+    </div>
+
+</body>
+
+</html>
