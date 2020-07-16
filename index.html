@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -13,10 +14,13 @@
 <body>
 
     <header class="d-flex align-items-center justify-content-between py-3 px-5">
-        <div>
-            <img src="assets/logo.png" alt="Logo">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Logo" class="img img-fluid">
         </div>
-        <div class="social-icons">
+        <div class = "ellipse">
+            <img src="assets/Ellipse.png" alt="">
+        </div>
+        <div class="social-icons d-none d-md-flex">
             <img src="assets/facebook.png" alt="" class="icon">
             <img src="assets/twitter.png" alt="" class="icon">
             <img src="assets/linkedin.png" alt="" class="icon">
@@ -24,21 +28,67 @@
     </header>
 
 
-    <div class="d-md-flex align-items-center justify-content-center container-fluid mx-auto" id="section-a">
-        <div class="text container ">
+    <div class="d-md-flex align-items-center justify-content-center container-fluid mx-auto" id="section-a"  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+        <div class="text container ml-5">
             <h1>Have you been delayed because of your Car Issues?</h1>
             <p>With Cartify, you can easily Scan your Car for Defects and Strength anywhere you are without having to go to the Mechanic Shop for diagnosis</p>
-            <div class = "pt-4">
+            <div class="pt-4 form">
                 <h5>Subscribe and get notified when we launch</h5>
-                <form action="email.php" method="POST" class = "cta">
-                    <input type="text" name="email" id="email-input" placeholder="Email address.." class = "px-4 input">
-                    <button type="submit" name = "submit" class = " button">Notify me!</button>
+                <form action="capture.php" method="POST" class="cta" id="subscribe">
+                    <input type="text" name="email" id="email" placeholder="Email address.." class="px-4 input">
+                    <button type="submit" name="submit" id = "submit" class=" button">Notify me!</button>
                 </form>
+                <div id="form-status"></div>
             </div>
         </div>
         <img src="assets/car.png" alt="" class="car ">
     </div>
+    <div><img src="assets/Ellipse.png" alt="" class = "p-1 ml-5"></div>
+    <!-- section A ends -->
+
+    <!-- Section B begins -->
+    <div id="section-b">
+        <div class="pl-3">
+            <h1>Have you been delayed because of your Car Issues?</h1>
+            <p>With Cartify, you can easily Scan your Car for Defects and Strength anywhere you are without having to go to the Mechanic Shop for diagnosis</p>
+
+        </div>
+        <img src="assets/iphone.png" alt="" class="iphone img img-fluid">
+    </div>
+    <!-- Section B ends -->
+
+    <!-- Section C begins -->
+
+    <div id="section-c">
+        <div class="pl-3">
+            <h1>Have you been delayed because of your Car Issues?</h1>
+            <p>With Cartify, you can easily Scan your Car for Defects and Strength anywhere you are without having to go to the Mechanic Shop for diagnosis</p>
+
+        </div>
+        <img src="assets/iphone.png" alt="" class="iphone img img-fluid">
+    </div>
+    <!-- Section C ends -->
+
+    <!-- Section D begins -->
+
+    <div id="section-d">
+        <div class="pl-3">
+            <h1>Have you been delayed because of your Car Issues?</h1>
+            <p>With Cartify, you can easily Scan your Car for Defects and Strength anywhere you are without having to go to the Mechanic Shop for diagnosis</p>
+
+        </div>
+        <img src="assets/iphone.png" alt="" class="iphone img img-fluid">
+    </div>
+    <!-- Section D ends -->
+
 
 </body>
-
+<script src="javascript/app.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 </html>

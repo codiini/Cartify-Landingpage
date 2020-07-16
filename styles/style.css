@@ -1,11 +1,16 @@
 * {
   font-family: "Poppins", sans-serif;
 }
-
+body::-webkit-scrollbar-thumb{
+background:#ff244f
+}
 .icon {
   margin-left: 30px;
 }
-
+.ellipse{
+  position:relative;
+  top:70px;
+}
 #section-a {
   position: relative;
 }
@@ -29,6 +34,9 @@
   border: none;
   border-radius: 30px;
 }
+.input:focus {
+  outline: 0.5px solid rgba(255, 36, 79, 0.5);
+}
 .button {
   margin-left: -163px;
   background: #ff244f;
@@ -38,14 +46,38 @@
   border-radius: 30px;
   width: 158px;
   height: 44px;
+  position: relative;
+  z-index: 10;
 }
 .car {
   width: 45%;
+}
+#section-b,
+#section-c,
+#section-d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 7rem 1rem;
+}
+#section-b {
+  background-color: #fff5f7;
+}
+#section-c {
+  background-color: #ff0a3a;
+  color: #fff;
+}
+#section-d {
+  background-color: #e5e5e5;
 }
 
 @media screen and (max-width: 768px) {
   .text h1 {
     font-size: 2rem;
+  }
+  .form {
+    text-align: center;
   }
   .cta {
     display: flex;
@@ -57,7 +89,7 @@
   }
   .button {
     margin: 10px auto;
-    width: 10--rem;
+    width: 10rem;
   }
   .input {
     width: 20rem;
@@ -65,412 +97,7 @@
   .car {
     display: none;
   }
+  .ellipse{
+    display:none;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
