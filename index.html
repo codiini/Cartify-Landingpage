@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Cartify</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="lightbox/dist/css/lightbox.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -17,7 +18,7 @@
         <div class="logo">
             <img src="assets/logo.png" alt="Logo" class="img img-fluid">
         </div>
-        <div class = "ellipse">
+        <div class="ellipse">
             <img src="assets/Ellipse.png" alt="">
         </div>
         <div class="social-icons d-none d-md-flex">
@@ -28,67 +29,108 @@
     </header>
 
 
-    <div class="d-md-flex align-items-center justify-content-center container-fluid mx-auto" id="section-a"  data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
-        <div class="text container ml-5">
+    <div class="d-md-flex align-items-center justify-content-center container-fluid mx-auto" id="section-a" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <div class="text container ">
             <h1>Have you been delayed because of your Car Issues?</h1>
             <p>With Cartify, you can easily Scan your Car for Defects and Strength anywhere you are without having to go to the Mechanic Shop for diagnosis</p>
             <div class="pt-4 form">
                 <h5>Subscribe and get notified when we launch</h5>
                 <form action="capture.php" method="POST" class="cta" id="subscribe">
                     <input type="text" name="email" id="email" placeholder="Email address.." class="px-4 input">
-                    <button type="submit" name="submit" id = "submit" class=" button">Notify me!</button>
+                    <button type="submit" name="submit" id="submit" class=" button">Notify me!</button>
                 </form>
                 <div id="form-status"></div>
             </div>
         </div>
         <img src="assets/car.png" alt="" class="car ">
     </div>
-    <div><img src="assets/Ellipse.png" alt="" class = "p-1 ml-5"></div>
+    <div><img src="assets/Ellipse.png" alt="" class="p-1 ml-5"></div>
     <!-- section A ends -->
 
     <!-- Section B begins -->
-    <div id="section-b">
-        <div class="pl-3">
-            <h1>Have you been delayed because of your Car Issues?</h1>
-            <p>With Cartify, you can easily Scan your Car for Defects and Strength anywhere you are without having to go to the Mechanic Shop for diagnosis</p>
+    <div id="section-b" class="sections">
+        <div data-aos="fade-up-right">
+            <a href="assets/b-img.png" data-lightbox="image-1" data-title="Carti-Scan">
+                <img src="assets/b-stack.png" alt=""></a>
+        </div>
+        <div class="section-text" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <h1>Carti-Scan&#174 </h1>
+            <p>Cartify uses the latest Carti-Scan&#174 Technology to analyze and visualize your different car parts</p>
 
         </div>
-        <img src="assets/iphone.png" alt="" class="iphone img img-fluid">
     </div>
     <!-- Section B ends -->
 
     <!-- Section C begins -->
 
-    <div id="section-c">
-        <div class="pl-3">
-            <h1>Have you been delayed because of your Car Issues?</h1>
-            <p>With Cartify, you can easily Scan your Car for Defects and Strength anywhere you are without having to go to the Mechanic Shop for diagnosis</p>
+    <div id="section-c" class="sections">
+        <div class=" section-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h1>Detailed Car Logs</h1>
+            <p>You can access your log of recently scanned cars.</p>
 
         </div>
-        <img src="assets/iphone.png" alt="" class="iphone img img-fluid">
+        <div data-aos="fade-up-leftt">
+            <a href="assets/c-img.png" data-lightbox="image-1" data-title="Car Logs">
+                <img src="assets/c-stack.png" alt="" class="iphone1 "></a>
+        </div>
     </div>
     <!-- Section C ends -->
 
     <!-- Section D begins -->
 
-    <div id="section-d">
-        <div class="pl-3">
-            <h1>Have you been delayed because of your Car Issues?</h1>
-            <p>With Cartify, you can easily Scan your Car for Defects and Strength anywhere you are without having to go to the Mechanic Shop for diagnosis</p>
+    <div id="section-d" class="sections">
+        <div data-aos="fade-up-right">
+            <a href="assets/d-img.png" data-lightbox="image-1" data-title="Helps for good decision making">
+                <img src="assets/d-stack.png" alt="" class="iphone "></a>
+        </div>
+        <div class="section-text" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <h1>Make Clever Decisions</h1>
+            <p>With Cartify you can make more informed and clever decisions when purchasing a vehicle just by scanning it.</p>
 
         </div>
-        <img src="assets/iphone.png" alt="" class="iphone img img-fluid">
     </div>
     <!-- Section D ends -->
+    <!-- Section E begins -->
 
+    <div id="section-e" class="sections">
+        <div class=" section-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h1>Easy and Intuitive to use</h1>
+            <p>Cartify gives you detailed but yet simple enough information aboutyour car and the status of it's parts </p>
 
+        </div>
+        <div data-aos="fade-up-left">
+            <a href="assets/e-img.png" data-lightbox="image-1" data-title="Easy and Intutive">
+                <img src="assets/e-stack.png" alt="" class="iphone1 "></a>
+        </div>
+    </div>
+    <!-- SEction E ends -->
+
+    <!-- Section F begins -->
+
+    <div id="section-f" class="sections">
+        <div data-aos="fade-up-right">
+            <a href="assets/f-img.png" data-lightbox="image-1" data-title="Find out your car's functionalities">
+                <img src="assets/f-stack.png" alt="" class="iphone "></a>
+        </div>
+        <div class=" section-text" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <h1>You can scan any car to know It's functionalities.</h1>
+            <p>With Cartify, you get to know the specifications and functionality of any car easily by scanning, and with that you make a better decision.</p>
+
+        </div>
+    </div>
+
+    <!-- Section F ends -->
+    <footer class="d-flex-column align-items-center justify-content-center mx-auto p-5">
+        <img src="assets/logo.png" alt="">
+        <div class="mt-3">
+            Cartify 2020 All rights reserved</div>
+    </footer>
 </body>
 <script src="javascript/app.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="lightbox/dist/js/lightbox-plus-jquery.js"></script>
+
 </html>
